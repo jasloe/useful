@@ -175,6 +175,10 @@ code --install-extension xabikos.JavaScriptSnippets
   "explorer.confirmDragAndDrop": false,
   "breadcrumbs.enabled": true,
   "explorer.confirmDelete": false,
-  "terminal.integrated.rendererType": "dom"
+  "terminal.integrated.rendererType": "dom",
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
 ```
