@@ -1,5 +1,4 @@
 ```
-```
 @font-face {
   font-family: 'MyWebFont';
   src: url('webfont.eot'); /* IE9 Compat Modes */
