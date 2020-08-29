@@ -1,0 +1,6 @@
+#!/bin/sh
+mkdir -p website/{public/assets/{images,scripts,styles},src/{scripts,styles}} &&
+cd website &&
+yarn init -y &&
+touch .babelrc postcss.config.js webpack.config.js public/index.html src/{scripts/{main.js,utils.js},styles/{main.scss,reset.scss}} &&
+rm -rf ../build.sh ../.git
