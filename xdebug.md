@@ -1,4 +1,4 @@
-### at /etc/php/7.4/cli/conf.d
+#### /etc/php/7.4/cli/conf.d
 
 ```
 [XDebug]
