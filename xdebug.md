@@ -14,3 +14,37 @@ xdebug.remote_autostart=1
 xdebug.max_nesting_level=256
 xdebug.idekey = VSCODE
 ```
+
+#### .vscode/launch.json
+
+```
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for XDebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9000,
+      "pathMappings": {
+        "/var/www/drupal": "${workspaceFolder}",
+        "/var/www/drupal/web": "${workspaceFolder}/web"
+      },
+      "xdebugSettings": {
+        "show_hidden": 1
+      }
+    }
+  ]
+}
+```
+
+#### codesniffer
+```
+/usr/local/bin/composer/phpcs
+```
+
+#### Documentation
+
+```
+https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code
+```
