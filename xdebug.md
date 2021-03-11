@@ -43,8 +43,17 @@ xdebug.idekey = VSCODE
 /usr/local/bin/composer/phpcs
 ```
 
-#### Documentation
+#### documentation
 
 ```
 https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code
+```
+
+#### drupal-vm configuration
+```
+installed_extras:
+  ...
+  - xdebug
+
+php_xdebug_default_enable: 1
 ```
