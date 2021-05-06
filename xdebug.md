@@ -53,21 +53,17 @@ https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-
 ##### in vagrant.config.yml ONLY
 ```
 php_xdebug_default_enable: 1
-php_xdebug_cli_disable: 1
+php_xdebug_cli_disable: no
 php_xdebug_idekey: VSCODE
 
 installed_extras:
   ...
   - drush
   - xdebug
-
-php_xdebug_default_enable: 1
 ```
 ##### in config.yml ONLY
 ```
 installed_extras:
   ...
   - drush
-
-php_xdebug_default_enable: 1
 ```
